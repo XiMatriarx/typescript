@@ -1,0 +1,30 @@
+name: Continuous Integration
+run-name: Continuous Integration
+on:
+  push:
+    branches:
+      - matrix
+  pull_request:
+    branches:
+      - matrix
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Security
+        run: echo "Security Mock"
+  dependency:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dependency
+        run: echo "Dependency Mock"
+  analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Analysis
+        run: echo "Analysis Mock"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo "Test Mock"
