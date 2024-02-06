@@ -1,0 +1,25 @@
+name: Release
+run-name: Release
+on:
+  push:
+    branches:
+      - matrix
+    tags:
+      - v*
+  pull_request:
+    branches:
+      - matrix
+    tags:
+      - v*
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        run: echo "Build Mock"
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        run: echo "Deploy Mock"

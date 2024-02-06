@@ -1,0 +1,11 @@
+name: Cron
+run-name: Cron
+on:
+  schedule:
+    - cron: '0 4 * * *'
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cron
+        run: echo "Cron Mock"
