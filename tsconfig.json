@@ -2,7 +2,7 @@
   // "extends": "",
   "references": [],
   // "files": [],
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts"],
   "exclude": [],
   "compilerOptions": {
     "incremental": true,
