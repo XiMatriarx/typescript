@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": ["tsconfig.json"],
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "ignorePatterns": ["node_modules", "lib"],
+  "env": {
+    "browser": false,
+    "es2022": true
+  },
+  "settings": {},
+  "overrides": [],
+  "rules": {}
+}
