@@ -15,6 +15,20 @@
 </p>
 
 <p align="center">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=alert_status" alt="SonarCloud Quality Gate">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=coverage" alt="Coverage">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=security_rating" alt="Security">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=vulnerabilities" alt="Vulnerabilities">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=sqale_rating" alt="Maintainability">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=reliability_rating" alt="Reliability">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=sqale_index" alt="Technical Debt">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=ncloc" alt="Code Lines">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=duplicated_lines_density" alt="Duplication">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=bugs" alt="Bugs">
+  <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=code_smells" alt="Code Smells">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/github/issues-raw/XiMatriarx/typescript?style=flat&label=Issues&labelColor=404040&color=800080" alt="Issues">
   <img src="https://img.shields.io/github/issues-closed-raw/XiMatriarx/typescript?style=flat&label=Issues%20Closed&labelColor=404040&color=800080" alt="Issues Closed">
   <img src="https://img.shields.io/github/issues-pr-raw/XiMatriarx/typescript?style=flat&label=Pull%20Requests&labelColor=404040&color=800080" alt="Pull Requests">
