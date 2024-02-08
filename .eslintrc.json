@@ -10,7 +10,8 @@
   "ignorePatterns": ["node_modules", "lib"],
   "env": {
     "browser": false,
-    "es2022": true
+    "es2022": true,
+    "jest": true
   },
   "settings": {},
   "overrides": [],

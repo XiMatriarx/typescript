@@ -1,5 +1,5 @@
 {
-  "*.ts": "eslint src test --no-error-on-unmatched-pattern",
+  "*.ts": "eslint src test",
   "*.{json,ts}": "prettier --write",
-  "*.ts": "jest --config .jestrc.json --passWithNoTests"
+  "*.ts": "jest --config .jestrc.json"
 }

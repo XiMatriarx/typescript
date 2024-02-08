@@ -26,7 +26,7 @@
   "modulePathIgnorePatterns": [],
   "notify": false,
   "notifyMode": "failure-change",
-  // "preset": undefined,
+  "preset": "ts-jest",
   // "projects": undefined,
   // "reporters": undefined,
   "resetMocks": false,
@@ -43,12 +43,21 @@
   "testEnvironment": "jest-environment-node",
   "testEnvironmentOptions": {},
   "testLocationInResults": false,
-  "testMatch": ["test/**/*.ts"],
+  "testMatch": ["<rootDir>/test/**/*.ts"],
   "testPathIgnorePatterns": ["node_modules"],
   "testRegex": [],
   // "testResultsProcessor": undefined,
   "testRunner": "jest-circus/runner",
-  // "transform": undefined,
+  "transform": {
+    "^.+\\.ts$": [
+      "ts-jest",
+      {
+        "tsconfig": {
+          "verbatimModuleSyntax": false
+        }
+      }
+    ]
+  },
   "transformIgnorePatterns": ["node_modules"],
   // "unmockedModulePathPatterns": undefined,
   // "verbose": undefined,
