@@ -12,7 +12,6 @@
 <p align="center">
   <img src="https://github.com/XiMatriarx/typescript/actions/workflows/cron.yml/badge.svg" alt="Cron">
   <img src="https://github.com/XiMatriarx/typescript/actions/workflows/ci.yml/badge.svg" alt="CI">
-  <img src="https://github.com/XiMatriarx/typescript/actions/workflows/cd.yml/badge.svg" alt="CD">
   <img src="https://github.com/XiMatriarx/typescript/actions/workflows/release.yml/badge.svg" alt="Release">
   <img src="https://img.shields.io/website?url=https%3A%2F%2Fximatriarx.io&up_message=Up&up_color=800080&down_message=Down&down_color=008080&style=flat&logo=GitHub&label=Website&labelColor=404040" alt="Website">
 </p>
