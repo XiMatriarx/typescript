@@ -12,10 +12,21 @@ on:
     tags:
       - v*
 jobs:
-  build:
+  security:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Security
+        run: echo "Security Mock"
+  dependency:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dependency
+        run: echo "Dependency Mock"
+  analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Lint
         uses: actions-setup-node@v3
         with:
@@ -23,9 +34,46 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run lint
-  deploy:
-    needs: build
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: SonarCloud
+        uses: sonarsource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          SONAR_TOKEN: ${{secrets.SONARCLOUD}}
+        with:
+          projectBaseDir: .
+          args: >
+            -Dsonar.organization=ximatriarx
+            -Dsonar.projectKey=XiMatriarx_radix
+            -Dsonar.sources=.
+            -Dsonar.tests="test"
+            -Dsonar.javascript.coverage.reportPaths="coverage/clover.xml"
+            -Dsonar.verbose=true
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy
-        run: echo "Deploy Mock"
+      - uses: actions/checkout@v4
+      - name: Test
+        uses: actions-setup-node@v3
+        with:
+          node-version: '20.x'
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
+  release:
+    needs: ['security', 'dependency', 'analysis', 'test']
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM}}
