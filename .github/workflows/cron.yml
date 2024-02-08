@@ -9,6 +9,20 @@ concurrency:
 jobs:
   cron:
     runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+    strategy:
+      fail-fast: false
     steps:
-      - name: Cron
-        run: echo "Cron Mock"
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Initialize
+        uses: github/codeql-action/init@v3
+        with:
+          languages: 'typescript'
+      - name: Build
+        uses: github/codeql-action/autobuild@v3
+      - name: Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: 'TypeScript
