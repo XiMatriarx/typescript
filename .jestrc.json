@@ -53,7 +53,9 @@
       "ts-jest",
       {
         "tsconfig": {
-          "verbatimModuleSyntax": false
+          "verbatimModuleSyntax": false,
+          "allowImportingTsExtensions": true,
+          "types": ["jest"]
         }
       }
     ]

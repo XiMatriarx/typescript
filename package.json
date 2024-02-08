@@ -9,6 +9,7 @@
     "TypeScript"
   ],
   "author": "Xi Matriarx",
+  "license": "MIT",
   "homepage": "https://github.com/XiMatriarx/typescript#readme",
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/XiMatriarx/typescript/issues"
   },
-  "license": "MIT",
+  "type": "module",
   "main": "lib/index.js",
   "scripts": {
     "start": "lib/index.js",
