@@ -4,7 +4,7 @@
   "cacheDirectory": "cache",
   "clearMocks": true,
   "collectCoverage": true,
-  // "collectCoverageFrom": undefined,
+  "collectCoverageFrom": ["src/**/*.ts"],
   "coverageDirectory": "coverage",
   "coveragePathIgnorePatterns": ["node_modules", "lib"],
   "coverageProvider": "v8",
@@ -20,7 +20,7 @@
   // "globalTeardown": undefined,
   "globals": {},
   "maxWorkers": "50%",
-  "moduleDirectories": ["node_modules"],
+  "moduleDirectories": ["node_modules", "src"],
   "moduleFileExtensions": ["js", "ts", "json"],
   "moduleNameMapper": {},
   "modulePathIgnorePatterns": [],
@@ -52,11 +52,7 @@
     "^.+\\.ts$": [
       "ts-jest",
       {
-        "tsconfig": {
-          "verbatimModuleSyntax": false,
-          "allowImportingTsExtensions": true,
-          "types": ["jest"]
-        }
+        "tsconfig": ".jesttypescriptrc.json"
       }
     ]
   },

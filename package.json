@@ -22,8 +22,8 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "lib/index.js",
-    "build": "tsc",
-    "dev": "tsc --watch",
+    "build": "tsc --project .typescriptrc.json",
+    "dev": "tsc --project .typescriptrc.json --watch",
     "lint": "eslint src test",
     "style": "prettier --write 'src/**/*.{json,ts}' 'test/**/*.{json,ts}'",
     "test": "jest --config .jestrc.json",
@@ -126,7 +126,6 @@
   "versions": false,
   "workspace-update": true,
   "devDependencies": {
-    "@babel/preset-typescript": "^7.23.3",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.16",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
