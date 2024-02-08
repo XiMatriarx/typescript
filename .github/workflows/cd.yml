@@ -11,6 +11,9 @@ on:
       - matrix
     tags_ignore:
       - v*
+concurrency:
+  group: cd
+  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest
