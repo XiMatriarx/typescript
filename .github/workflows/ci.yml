@@ -15,12 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Security
-        run: echo "Security Mock"
+        run: echo 'Security Mock'
   dependency:
     runs-on: ubuntu-latest
     steps:
       - name: Dependency
-        run: echo "Dependency Mock"
+        run: echo 'Dependency Mock'
   analysis:
     runs-on: ubuntu-latest
     steps:
@@ -48,8 +48,8 @@ jobs:
             -Dsonar.organization=ximatriarx
             -Dsonar.projectKey=XiMatriarx_typescript
             -Dsonar.sources=.
-            -Dsonar.tests="test"
-            -Dsonar.javascript.coverage.reportPaths="coverage/clover.xml"
+            -Dsonar.tests='test'
+            -Dsonar.javascript.coverage.reportPaths='coverage/clover.xml'
             -Dsonar.verbose=true
   test:
     runs-on: ubuntu-latest
