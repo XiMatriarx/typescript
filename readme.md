@@ -1,6 +1,10 @@
 <h1 align="center">✨🧚🏻‍♀️🪄✨ TypeScript 💕🦄🌈🏰</h1>
 
 <p align="center">
+  A TypeScript template project.
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/github/stars/XiMatriarx/typescript?style=flat&logo=GitHub&label=Stars&labelColor=404040&color=800080" alt="Stars">
   <img src="https://img.shields.io/github/watchers/XiMatriarx/typescript?style=flat&logo=GitHub&label=Watchers&labelColor=404040&color=800080" alt="Watchers">
 </p>
