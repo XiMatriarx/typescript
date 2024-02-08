@@ -46,7 +46,7 @@ jobs:
           projectBaseDir: .
           args: >
             -Dsonar.organization=ximatriarx
-            -Dsonar.projectKey=XiMatriarx_radix
+            -Dsonar.projectKey=XiMatriarx_typescript
             -Dsonar.sources=.
             -Dsonar.tests="test"
             -Dsonar.javascript.coverage.reportPaths="coverage/clover.xml"
