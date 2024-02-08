@@ -2,13 +2,9 @@ name: Release
 run-name: Release
 on:
   push:
-    branches:
-      - matrix
     tags:
       - v*
   pull_request:
-    branches:
-      - matrix
     tags:
       - v*
 concurrency:
