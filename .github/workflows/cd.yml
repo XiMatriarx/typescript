@@ -19,10 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build
-        run: echo "Build Mock"
+        run: echo 'Build Mock'
   deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Deploy
-        run: echo "Deploy Mock"
+        run: echo 'Deploy Mock'
