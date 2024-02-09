@@ -17,10 +17,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fgithub.com%2FXiMatriarx%2Ftypescript%2Fblob%2Fmatrix%2Freadme.md&style=flat&label=W3C&labelColor=404040&color=800080" alt="W3C">
-</p>
-
-<p align="center">
   <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=alert_status" alt="SonarCloud Quality Gate">
   <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=coverage" alt="Coverage">
   <img src="https://sonarcloud.io/api/project_badges/measure?project=XiMatriarx_typescript&metric=security_rating" alt="Security">

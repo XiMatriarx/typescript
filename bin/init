@@ -12,4 +12,5 @@ git clone https://github.com/XiMatriarx/typescript.git
 mv typescript $project
 cd $project
 rm -Rf .git
+rm -Rf bin
 npm install
