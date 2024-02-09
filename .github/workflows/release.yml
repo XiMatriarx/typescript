@@ -98,7 +98,9 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           scope: '@XiMatriarx'
           always-auth: true
+      - name: Install
+        run: npm ci --ignore-scripts
       - name: Release
-        run: npm publish --ignore-scripts
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM}}

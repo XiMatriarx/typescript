@@ -3,6 +3,8 @@ lib
 build
 coverage
 cache
+src
+test
 
 .editorconfig
 .eslintrc.json
