@@ -45,7 +45,7 @@ jobs:
         with:
           node-version: '20.x'
       - name: Setup
-        run: npm ci --ignore-scripts
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Lint
@@ -80,7 +80,7 @@ jobs:
         with:
           node-version: '20.x'
       - name: Install
-        run: npm ci --ignore-scripts
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Test
