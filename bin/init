@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ -z "$1" ]
+then
+	echo "Project name is required."
+	exit
+fi
+
+git clone https://github.com/XiMatriarx/typescript.git
+mv typescript $project
+cd $project
+rm -Rf .git
+npm install

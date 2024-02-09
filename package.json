@@ -10,7 +10,7 @@
   ],
   "author": "Xi Matriarx",
   "license": "MIT",
-  "homepage": "https://github.com/XiMatriarx/typescript#readme",
+  "homepage": "https://ximatriarx.io",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XiMatriarx/typescript.git"
@@ -28,6 +28,9 @@
     "style": "prettier --write 'src/**/*.{json,ts}' 'test/**/*.{json,ts}'",
     "test": "jest --config .jestrc.json",
     "prepare": "husky hooks"
+  },
+  "bin": {
+    "init": "bin/init"
   },
   "access": "public",
   "all": "False",
