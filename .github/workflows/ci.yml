@@ -36,6 +36,8 @@ jobs:
         run: npm run build
       - name: Lint
         run: npm run lint
+      - name: Test
+        run: npm run test
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -50,9 +52,9 @@ jobs:
           args: >
             -Dsonar.organization=ximatriarx
             -Dsonar.projectKey=XiMatriarx_typescript
-            -Dsonar.sources=.
+            -Dsonar.sources=src
             -Dsonar.tests=test
-            -Dsonar.javascript.coverage.reportPaths=coverage/clover.xml
+            -Dsonar.javascript.coverage.reportPaths=coverage/lcov.info
             -Dsonar.verbose=true
   test:
     runs-on: ubuntu-latest
