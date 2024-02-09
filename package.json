@@ -32,7 +32,6 @@
   "bin": {
     "init": "bin/init"
   },
-  "private": false,
   "access": "public",
   "all": "False",
   "allow-same-version": "false",
