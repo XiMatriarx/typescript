@@ -1,6 +1,8 @@
 #!/bin/sh
 
-if [ -z "$1" ]
+read -p "Project name: " project
+
+if [ -z "$project" ]
 then
 	echo "Project name is required."
 	exit
