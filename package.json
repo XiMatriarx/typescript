@@ -21,7 +21,7 @@
   "type": "module",
   "main": "lib/index.js",
   "scripts": {
-    "start": "lib/index.js",
+    "start": "node lib/index.js",
     "build": "tsc --project .typescriptrc.json",
     "dev": "tsc --project .typescriptrc.json --watch",
     "lint": "eslint src test",
