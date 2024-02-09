@@ -1,5 +1,5 @@
 {
-  "arrowParens": "avoid",
+  "arrowParens": "always",
   "bracketSameLine": true,
   "bracketSpacing": false,
   "embeddedLanguageFormatting": "off",
@@ -17,7 +17,7 @@
   "singleAttributePerLine": true,
   "singleQuote": true,
   "tabWidth": 2,
-  "trailingComma": "none",
+  "trailingComma": "all",
   "useTabs": false,
   "vueIndentScriptAndStyle": false
 }
