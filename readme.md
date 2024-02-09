@@ -1,7 +1,7 @@
 <h1 align="center">✨🧚🏻‍♀️🪄✨ TypeScript 💕🦄🌈🏰</h1>
 
 <p align="center">
-  A TypeScript template project.
+  A TypeScript project template.
 </p>
 
 <p align="center">
