@@ -101,7 +101,7 @@ jobs:
       - name: Release
         run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB}}
   release-npm:
     needs: [security, dependency, analysis, test]
     runs-on: ubuntu-latest
