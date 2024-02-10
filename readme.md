@@ -100,10 +100,6 @@ Or you can use `bin/init.sh`.
   <img src="https://img.shields.io/github/downloads/XiMatriarx/typescript/total?style=flat&logo=GitHub&label=Downloads&labelColor=404040&color=800080" alt="Downloads">
 </p>
 
-## Setup
-
-## Usage
-
 <h1 align="center">✨🧚🏻‍♀️🪄✨ Xi Matriarx 💕🦄🌈🏰</h1>
 
 <p align="center">
