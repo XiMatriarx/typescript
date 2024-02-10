@@ -7,6 +7,7 @@ on:
   pull_request:
     tags:
       - v*
+  workflow_dispatch:
 concurrency:
   group: release
   cancel-in-progress: true
