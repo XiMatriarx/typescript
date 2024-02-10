@@ -101,7 +101,7 @@ jobs:
           scope: '@XiMatriarx'
           always-auth: true
       - name: Release
-        run: npm publish --registry=https://npm.pkg.github.com --access=public
+        run: npm publish --@XiMatriarx:registry=https://npm.pkg.github.com --access=public
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
   release-npm:
