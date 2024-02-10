@@ -6,7 +6,7 @@ A minimalistic TypeScript project template preconfigured with ESLint, Prettier, 
 
 ## Setup
 
-`npx @ximatriarx/typescript init`
+`npx @XiMatriarx/typescript init`
 
 Or you can use `bin/init.sh`.  
 
