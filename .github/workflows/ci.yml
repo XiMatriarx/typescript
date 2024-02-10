@@ -7,30 +7,10 @@ on:
   pull_request:
     branches:
       - matrix
-  workflow_dispatch:
 concurrency:
   group: ci
   cancel-in-progress: true
 jobs:
-  release-github:
-    needs: [security, dependency, analysis, test]
-    runs-on: ubuntu-latest
-    permissions:
-      packages: write
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20.x'
-          registry-url: 'registry=https://npm.pkg.github.com'
-          scope: '@XiMatriarx'
-          always-auth: true
-      - name: Release
-        run: npm publish --@XiMatriarx:registry=https://npm.pkg.github.com --access=public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
   security:
     runs-on: ubuntu-latest
     permissions:
