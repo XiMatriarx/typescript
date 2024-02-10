@@ -3,6 +3,7 @@ run-name: Cron
 on:
   schedule:
     - cron: '0 4 * * *'
+  workflow_dispatch:
 concurrency:
   group: cron
   cancel-in-progress: true

@@ -30,7 +30,7 @@
     "init": "husky hooks"
   },
   "bin": {
-    "init": "bin/init"
+    "init": "bin/init.sh"
   },
   "access": "public",
   "all": "False",
