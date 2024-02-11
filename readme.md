@@ -4,22 +4,6 @@
 
 A minimalistic TypeScript project template preconfigured with ESLint, Prettier, Jest, Lint-Staged and Husky.  
 
-## Setup
-
-`npx @XiMatriarx/typescript init`
-
-Or you can use `bin/init.sh`.  
-
-## Usage
-
-`npm start` ~ Start project.  
-`npm run build` ~ Build project.  
-`npm run dev` ~ Build project in watch mode.  
-`npm run lint` ~ Lint codebase using ESLint.  
-`npm run style` ~ Style codebase using Prettier.  
-`npm test` ~ Test codebase using Jest.  
-`npm run init` ~ Initialize Husky git hooks for Lint-staged.  
-
 ## Status
 
 <p>
@@ -100,6 +84,30 @@ Or you can use `bin/init.sh`.
   <img src="https://img.shields.io/github/downloads/XiMatriarx/typescript/total?style=flat&logo=GitHub&label=Downloads&labelColor=404040&color=800080" alt="Downloads">
 </p>
 
+## Setup
+
+- `npx @XiMatriarx/typescript init`
+- Use it as a GitHub repository template.  
+- Clone it using `git clone https://github.com/XiMatriarx/typescript.git`.  
+- Use `bin/init.sh` to create repositories.  
+
+## Usage
+
+`npm start` ~ Start project.  
+`npm run build` ~ Build project.  
+`npm run dev` ~ Build project in watch mode.  
+`npm run lint` ~ Lint codebase using ESLint.  
+`npm run style` ~ Style codebase using Prettier.  
+`npm test` ~ Test codebase using Jest.  
+`npm run init` ~ Initialize Husky git hooks for Lint-staged.  
+
+## Documentation
+
+- [Code of Conduct](https://github.com/XiMatriarx/.github/blob/matrix/code_of_conduct.md)
+- [Contributing](https://github.com/XiMatriarx/.github/blob/matrix/contributing.md)
+- [Security](https://github.com/XiMatriarx/.github/blob/matrix/security.md)
+- [Support](https://github.com/XiMatriarx/.github/blob/matrix/support.md)
+
 <h1 align="center">✨🧚🏻‍♀️🪄✨ Xi Matriarx 💕🦄🌈🏰</h1>
 
 <p align="center">
@@ -107,24 +115,15 @@ Or you can use `bin/init.sh`.
 </p>
 
 <p align="center">
-  <a href="mailto:xi@ximatriarx.io"><img src="https://img.shields.io/badge/xi%40ximatriarx.io-404040?style=flat" alt="Email"></a>
-  <a href="https://t.me/ximatriarx"><img src="https://img.shields.io/badge/-Telegram-404040?style=flat&logo=Telegram" alt="Telegram"></a>
+  <a href="mailto:xi@ximatriarx.io"><img src="https://img.shields.io/badge/xi@ximatriarx.io-404040?style=flat" alt="Email"></a>
+  <a href="https://ximatriarx.io"><img src="https://img.shields.io/badge/https://ximatriarx.io-404040?style=flat" alt="Website"></a>
 </p>
 
 <p align="center">
   <a href="https://patreon.com/XiMatriarx" target="_blank"><img src="https://img.shields.io/badge/-Patreon-404040?style=flat&logo=Patreon" alt="Patreon"></a>
-</p>
-
-<p align="center">
   <a href="https://discord.gg/XiMatriarx" target="_blank"><img src="https://img.shields.io/discord/XiMatriarx?style=flat&logo=Discord&label=Discord&labelColor=404040&color=800080" alt="Discord"></a>
   <a href="https://www.reddit.com/r/XiMatriarx" target="_blank"><img src="https://img.shields.io/reddit/subreddit-subscribers/XiMatriarx?style=flat&logo=Reddit&label=Reddit&labelColor=404040&color=800080" alt="Reddit"></a>
-  <a href="https://linkedin.com/in/XiMatriarx" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-404040?style=flat&logo=LinkedIn" alt="LinkedIn"></a>
   <a href="https://twitter.com/XiMatriarx" target="_blank"><img src="https://img.shields.io/badge/-X-404040?style=flat&logo=X" alt="X"></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/XiMatriarx?style=flat&logo=GitHub&label=Stars&labelColor=404040&color=800080" alt="Stars">
-  <img src="https://img.shields.io/github/followers/XiMatriarx?style=flat&logo=GitHub&label=Followers&labelColor=404040&color=800080" alt="Followers">
 </p>
 
 <p align="center">
