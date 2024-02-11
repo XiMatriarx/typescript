@@ -17,7 +17,7 @@ Or you can use `bin/init.sh`.
 `npm run dev` ~ Build project in watch mode.  
 `npm run lint` ~ Lint codebase using ESLint.  
 `npm run style` ~ Style codebase using Prettier.  
-`npm run test` ~ Test codebase using Jest.  
+`npm test` ~ Test codebase using Jest.  
 `npm run init` ~ Initialize Husky git hooks for Lint-staged.  
 
 ## Status
