@@ -70,9 +70,9 @@ A minimalistic TypeScript project template preconfigured with ESLint, Prettier, 
 
 <p>
   <img src="https://img.shields.io/github/commit-activity/t/XiMatriarx/typescript?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Total)">
-  <img src="https://img.shields.io/github/commit-activity/y/XiMatriarx/typescript?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Year)">
-  <img src="https://img.shields.io/github/commit-activity/m/XiMatriarx/typescript?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Month)">
   <img src="https://img.shields.io/github/commit-activity/w/XiMatriarx/typescript?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Week)">
+  <img src="https://img.shields.io/github/commit-activity/m/XiMatriarx/typescript?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Month)">
+  <img src="https://img.shields.io/github/commit-activity/y/XiMatriarx/typescript?style=flat&logo=GitHub&label=Commits&labelColor=404040&color=800080" alt="Commits (Year)">
   <img src="https://img.shields.io/github/commits-since/XiMatriarx/typescript/latest?sort=semver&style=flat&logo=GitHub&label=Release%20Commits&labelColor=404040&color=800080" alt="Release Commits">
 </p>
 
