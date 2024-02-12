@@ -17,4 +17,5 @@ test
 .typescriptrc.json
 citation.cff
 codeowners
+dockerfile
 license
