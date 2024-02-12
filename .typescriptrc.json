@@ -27,10 +27,12 @@
     "rootDir": "src",
     "moduleResolution": "node16",
     "baseUrl": "src",
-    "paths": {},
+    "paths": {
+      "@source/*": ["./*"]
+    },
     "rootDirs": ["src"],
     "typeRoots": ["node_modules/@types"],
-    "types": [""],
+    // "types": [""],
     "allowUmdGlobalAccess": true,
     "moduleSuffixes": [],
     "allowImportingTsExtensions": false,
