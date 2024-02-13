@@ -10,6 +10,7 @@
     "emitDecoratorMetadata": false,
     "noEmit": true,
     "rootDir": ".",
-    "rootDirs": ["."]
+    "rootDirs": ["."],
+    "types": ["node", "jest"]
   }
 }

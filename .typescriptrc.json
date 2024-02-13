@@ -90,8 +90,8 @@
     "stripInternal": true,
     "target": "es2022",
     "tsBuildInfoFile": "cache/build",
-    "typeRoots": ["node_modules/@types"],
-    // "types": [""],
+    "typeRoots": ["node_modules/@types", "types.d.ts"],
+    "types": ["node"],
     "useDefineForClassFields": true,
     "useUnknownInCatchVariables": true,
     "verbatimModuleSyntax": true

@@ -1,7 +1,7 @@
-import {greeting} from '../src/index.ts'
+import {config} from '../src/index.ts'
 
 describe('Index', () => {
-  test('Greeting', () => {
-    expect(greeting).toBe('Hello World!')
+  test('Config', () => {
+    expect(config).toStrictEqual({environment: 'development'})
   })
 })

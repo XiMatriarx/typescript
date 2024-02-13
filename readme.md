@@ -2,7 +2,7 @@
 
 <p align="center">A TypeScript project template.</p>
 
-A minimalistic TypeScript project template preconfigured with ESLint, Prettier, Jest, Lint-Staged and Husky.  
+A minimalistic TypeScript project template preconfigured with ESLint, Prettier, Jest, Lint-Staged and Husky.
 
 ## Status
 
@@ -87,19 +87,19 @@ A minimalistic TypeScript project template preconfigured with ESLint, Prettier, 
 ## Setup
 
 - `npx @XiMatriarx/typescript init`
-- Use it as a GitHub repository template.  
-- Clone it using `git clone https://github.com/XiMatriarx/typescript.git`.  
-- Use `bin/init.sh` to create repositories.  
+- Use it as a GitHub repository template.
+- Clone it using `git clone https://github.com/XiMatriarx/typescript.git`.
+- Use `bin/init.sh` to create repositories.
 
 ## Usage
 
-- `npm start` ~ Start project.  
-- `npm run build` ~ Build project.  
-- `npm run dev` ~ Build project in watch mode.  
-- `npm run lint` ~ Lint codebase using ESLint.  
-- `npm run style` ~ Style codebase using Prettier.  
-- `npm test` ~ Test codebase using Jest.  
-- `npm run init` ~ Initialize Husky git hooks for Lint-staged.  
+- `npm start` ~ Start project.
+- `npm run build` ~ Build project.
+- `npm run dev` ~ Build project in watch mode.
+- `npm run lint` ~ Lint codebase using ESLint.
+- `npm run style` ~ Style codebase using Prettier.
+- `npm test` ~ Test codebase using Jest.
+- `npm run init` ~ Initialize Husky git hooks for Lint-staged.
 
 ## Documentation
 

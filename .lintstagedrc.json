@@ -1,5 +1,5 @@
 {
   "*.ts": "eslint src test",
-  "*.{json,ts}": "prettier --write",
+  "*": "prettier --write --ignore-unknown",
   "*.ts": "jest --config .jestrc.json"
 }
