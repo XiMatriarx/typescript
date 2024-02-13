@@ -65,7 +65,7 @@
   // "testResultsProcessor": undefined,
   "testRunner": "jest-circus/runner",
   "testSequencer": "@jest/test-sequencer",
-  "testTimeout": 2,
+  "testTimeout": 2000,
   "transform": {
     "^.+\\.ts$": [
       "ts-jest",
