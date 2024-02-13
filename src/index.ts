@@ -1,1 +1,5 @@
-export const greeting = 'Hello World!'
+const config = {
+  environment: 'development',
+}
+
+export {config}

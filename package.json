@@ -1,6 +1,6 @@
 {
   "name": "@ximatriarx/typescript",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "TypeScript",
   "keywords": [
     "Xi",
@@ -25,7 +25,7 @@
     "build": "tsc --project .typescriptrc.json",
     "dev": "tsc --project .typescriptrc.json --watch",
     "lint": "eslint src test",
-    "style": "prettier --write 'src/**/*.{json,ts}' 'test/**/*.{json,ts}'",
+    "style": "prettier --write . --ignore-unknown",
     "test": "jest --config .jestrc.json",
     "docker": "docker builder build . -t typescript && docker run typescript",
     "init": "husky hooks"
@@ -135,7 +135,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.0.10",
