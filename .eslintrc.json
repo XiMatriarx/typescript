@@ -1,13 +1,13 @@
 {
   "root": true,
   "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "ignorePatterns": ["node_modules", "lib"],
+  "plugins": ["@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": [".eslinttypescriptrc.json"],
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint"],
-  "ignorePatterns": ["node_modules", "lib"],
   "env": {
     "browser": false,
     "es2022": true,

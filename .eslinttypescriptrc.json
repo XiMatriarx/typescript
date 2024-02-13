@@ -6,11 +6,10 @@
     }
   ],
   "include": ["src/**/*.ts", "test/**/*.ts"],
-  "exclude": [],
   "compilerOptions": {
-    "rootDir": ".",
-    "rootDirs": ["."],
     "emitDecoratorMetadata": false,
-    "noEmit": true
+    "noEmit": true,
+    "rootDir": ".",
+    "rootDirs": ["."]
   }
 }

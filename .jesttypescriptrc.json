@@ -6,7 +6,6 @@
     }
   ],
   "include": ["src/**/**.ts", "test/**/*.ts"],
-  "exclude": [],
   "compilerOptions": {
     "types": ["jest"],
     "allowImportingTsExtensions": true,

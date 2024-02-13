@@ -16,9 +16,9 @@
     "enableGlobally": false
   },
   "forceCoverageMatch": [],
+  "globals": {},
   // "globalSetup": undefined,
   // "globalTeardown": undefined,
-  "globals": {},
   "maxWorkers": "50%",
   "moduleDirectories": ["node_modules", "src"],
   "moduleFileExtensions": ["js", "ts", "json"],
