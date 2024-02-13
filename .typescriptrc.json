@@ -91,7 +91,7 @@
     "target": "es2022",
     "tsBuildInfoFile": "cache/build",
     "typeRoots": ["node_modules/@types"],
-    "types": ["node"],
+    "types": ["node", "jest"],
     "useDefineForClassFields": true,
     "useUnknownInCatchVariables": true,
     "verbatimModuleSyntax": true
