@@ -8,9 +8,7 @@
   "include": ["src/**/**.ts", "test/**/*.ts"],
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "noEmit": true,
     "noEmitOnError": false,
-    "types": ["node", "jest"],
     "verbatimModuleSyntax": false
   }
 }

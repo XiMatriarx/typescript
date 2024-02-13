@@ -7,10 +7,6 @@
   ],
   "include": ["src/**/*.ts", "test/**/*.ts"],
   "compilerOptions": {
-    "emitDecoratorMetadata": false,
-    "noEmit": true,
-    "rootDir": ".",
-    "rootDirs": ["."],
-    "types": ["node", "jest"]
+    "rootDir": "."
   }
 }
