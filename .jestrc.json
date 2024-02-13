@@ -21,7 +21,7 @@
   // "globalTeardown": undefined,
   "maxWorkers": "50%",
   "moduleDirectories": ["node_modules", "src"],
-  "moduleFileExtensions": ["js", "ts", "json"],
+  "moduleFileExtensions": ["ts", "js", "json"],
   "moduleNameMapper": {},
   "modulePathIgnorePatterns": [],
   "notify": false,
