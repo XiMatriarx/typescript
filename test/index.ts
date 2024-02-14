@@ -1,7 +1,7 @@
 import '../src/index'
 
-describe('Description', () => {
-  test('Test', () => {
-    expect(true).toBe(true)
+describe('Config', () => {
+  test('Environment', async () => {
+    expect(process.env['ENVIRONMENT']).toBe('development')
   })
 })
