@@ -86,7 +86,7 @@ A minimalistic TypeScript project template preconfigured with ESLint, Prettier, 
 
 ## Setup
 
-- `npx @XiMatriarx/typescript init`
+- `npx @ximatriarx/typescript init`
 - Use it as a GitHub repository template.
 - Clone it using `git clone https://github.com/XiMatriarx/typescript.git`.
 - Use `bin/init.sh` to create repositories.
