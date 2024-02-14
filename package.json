@@ -1,6 +1,6 @@
 {
   "name": "@ximatriarx/typescript",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "A TypeScript project template",
   "keywords": [
     "Xi",
@@ -131,6 +131,7 @@
   "workspace-update": true,
   "dependencies": {
     "@types/node": "^20.11.17",
+    "dotenv": "^16.4.4",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
