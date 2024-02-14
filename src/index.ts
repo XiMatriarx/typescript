@@ -1,5 +1,1 @@
-const config = {
-  environment: 'development',
-}
-
-export {config}
+import 'dotenv/config'
