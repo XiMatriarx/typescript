@@ -8,7 +8,7 @@ then
 	exit
 fi
 
-git clone https://github.com/XiMatriarx/typescript.git --depth 1 --branch 'v0.0.25'
+git clone https://github.com/XiMatriarx/typescript.git --depth 1 --branch 'v0.0.26'
 mv typescript $project
 cd $project
 rm -Rf .git
