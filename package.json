@@ -1,7 +1,7 @@
 {
   "name": "@ximatriarx/typescript",
-  "version": "0.0.23",
-  "description": "TypeScript",
+  "version": "0.0.24",
+  "description": "A TypeScript project template",
   "keywords": [
     "Xi",
     "Matriarx",
