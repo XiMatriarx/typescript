@@ -9,6 +9,7 @@
   "compilerOptions": {
     "allowImportingTsExtensions": true,
     "noEmitOnError": false,
+    "types": ["node", "jest"],
     "verbatimModuleSyntax": false
   }
 }
