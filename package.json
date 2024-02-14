@@ -1,6 +1,6 @@
 {
   "name": "@ximatriarx/typescript",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "TypeScript",
   "keywords": [
     "Xi",
@@ -27,7 +27,7 @@
     "lint": "eslint src test",
     "style": "prettier --write . --ignore-unknown",
     "test": "jest --config .jestrc.json",
-    "docker": "docker builder build . -t typescript && docker run typescript",
+    "docker": "docker builder build --build-arg='PORT=80' . -t typescript && docker run -p 80:80 typescript",
     "init": "husky hooks"
   },
   "bin": {
