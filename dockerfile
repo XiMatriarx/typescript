@@ -15,6 +15,7 @@ WORKDIR /app
 
 COPY package.json .
 COPY package-lock.json .
+COPY --from=typescript-build /app/node_modules node_modules
 COPY --from=typescript-build /app/lib .
 
 EXPOSE $PORT
