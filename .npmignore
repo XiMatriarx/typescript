@@ -14,6 +14,7 @@ test
 .jesttypescriptrc.json
 .lintstagedrc.json
 .prettierrc.json
+.swcrc.json
 .typescriptrc.json
 citation.cff
 codeowners

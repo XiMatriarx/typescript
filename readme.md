@@ -2,7 +2,7 @@
 
 <p align="center">A TypeScript project template.</p>
 
-A minimalistic TypeScript project template preconfigured with ESLint, Prettier, Jest, Lint-Staged and Husky.
+A minimalistic TypeScript project template preconfigured with SWC, ESLint, Prettier, Jest, Lint-Staged and Husky.
 
 ## Status
 
