@@ -1,6 +1,6 @@
 {
   "name": "@ximatriarx/typescript",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A TypeScript project template",
   "keywords": [
     "Xi",
@@ -140,7 +140,6 @@
     "@swc/jest": "^0.2.36",
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "chokidar": "^3.6.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.0.11",

@@ -33,7 +33,9 @@
   "maxWorkers": "50%",
   "moduleDirectories": ["node_modules", "src"],
   "moduleFileExtensions": ["ts", "js", "json"],
-  "moduleNameMapper": {},
+  "moduleNameMapper": {
+    "^(\\.{1,2}/.+)\\.js$": "$1"
+  },
   "modulePathIgnorePatterns": [],
   "modulePaths": [],
   "notify": false,
